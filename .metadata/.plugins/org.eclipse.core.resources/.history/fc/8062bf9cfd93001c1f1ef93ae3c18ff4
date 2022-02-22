@@ -1,0 +1,22 @@
+package contry;
+import java.util.Scanner;
+public class Common {
+
+	public static void main(String[] args) {
+Scanner sc= new Scanner(System.in);
+System.out.println("Enter the first positive integer:");
+int p=sc.nextInt();
+System.out.println("Enter the second positive integer:");
+int q=sc.nextInt();
+int gcd=1;
+for(int i=0;i<=p&&i<=q;i++)
+{
+	if(p%i==0 && q%i==0)
+	{
+		gcd=i;
+	}
+}
+System.out.println("the GCD of the p and q is"+ gcd);
+	}
+
+}

@@ -1,0 +1,15 @@
+package contry;
+
+
+class C {
+		public static void main(String[] args) {
+		int i1=9;
+		int i2;
+		for(1>3)
+		{
+			i2=8;
+		}
+		System.out.println(i2);
+		}}
+
+
