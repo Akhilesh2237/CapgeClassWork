@@ -11,6 +11,7 @@ System.out.println("Enter sex details: M or F");
 String sex=sc.nextLine();
 System.out.println("Enter the Marital status : (Y or N)");
 String marital=sc.nextLine();
+sc.close();
 if(sex.equals("F"))
 {
 	System.out.println("Work location: urban area");
